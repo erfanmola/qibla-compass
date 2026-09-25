@@ -20,7 +20,7 @@ Paste this where you want the widget to appear. It is free, needs no API key, an
 page that allows iframes:
 
 ```html
-<iframe src="https://qiblafind.net/embed/qibla" title="Qibla compass" width="100%" height="860" style="border:0;max-width:100%" loading="lazy" allow="geolocation; accelerometer; gyroscope; magnetometer"></iframe>
+<iframe src="https://qiblafind.net/embed/qibla" title="Qibla compass" width="100%" height="750" style="border:0;max-width:100%" loading="lazy" allow="geolocation; accelerometer; gyroscope; magnetometer"></iframe>
 <p style="font-size:13px"><a href="https://qiblafind.net/">Qibla compass</a> by QiblaFind</p>
 ```
 
