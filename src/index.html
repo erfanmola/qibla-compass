@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online Qibla Compass: Find the Qibla Direction From Your Phone</title>
+  <meta name="description" content="Free online Qibla compass that uses your phone&#x27;s location and compass sensor to point toward the Kaaba in Makkah. Works in the browser, no app or sign-up.">
+  <link rel="canonical" href="{{SITE_URL}}">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Online Qibla Compass: Find the Qibla Direction From Your Phone">
+  <meta property="og:description" content="Free online Qibla compass that uses your phone&#x27;s location and compass sensor to point toward the Kaaba in Makkah. Works in the browser, no app or sign-up.">
+  <meta property="og:url" content="{{SITE_URL}}">
+  <meta property="og:image" content="{{SITE_URL}}og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Online Qibla Compass", "url": "{{SITE_URL}}", "applicationCategory": "LifestyleApplication", "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Free online Qibla compass that uses your phone's location and compass sensor to point toward the Kaaba in Makkah. Works in the browser, no app or sign-up.", "isBasedOn": "{{LINK_ORIGIN}}/", "provider": {"@type": "Organization", "name": "QiblaFind", "url": "{{LINK_ORIGIN}}/"}}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is this Qibla compass free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. It is free, runs in your browser and needs no app, account or sign-up."}}, {"@type": "Question", "name": "Why does the compass ask for location and motion access?", "acceptedAnswer": {"@type": "Answer", "text": "Your location is needed to calculate the direction to the Kaaba from where you are, and motion access lets the compass follow your phone as you turn. Location is only used to calculate results and to look up the name of your city; no account is needed. See the QiblaFind privacy policy."}}, {"@type": "Question", "name": "Why is the Qibla not simply east or south-east?", "acceptedAnswer": {"@type": "Answer", "text": "The Qibla follows the shortest path over the curved Earth (a great circle), so the direction depends on exactly where you are and can look surprising on a flat map."}}, {"@type": "Question", "name": "The needle is unsteady. What can I do?", "acceptedAnswer": {"@type": "Answer", "text": "Move away from metal and electronics, remove magnetic cases, then move the phone in a slow figure-8 to recalibrate the compass sensor."}}]}</script>
+</head>
+<body>
+  <header class="site wrap">
+    <div class="kicker">Free web tool</div>
+    <h1>Online Qibla Compass</h1>
+    <p class="lead">The Qibla is the direction of the Kaaba in Makkah, which Muslims face in prayer. This live compass points to it from wherever you are, using your device's location and compass. There is nothing to install.</p>
+  </header>
+
+  <main class="wrap">
+    <div class="tool" style="--frame-h-mobile:760px;--frame-h-desktop:860px">
+      <iframe src="{{EMBED_ORIGIN}}/embed/qibla" title="Qibla compass" allow="geolocation; accelerometer; gyroscope; magnetometer"></iframe>
+      <a class="open-full" href="{{LINK_ORIGIN}}/">Open the full Qibla Finder with calibration tips →</a>
+    </div>
+
+    <section>
+      <h2>How to use the Qibla compass</h2>
+      <ol>
+        <li>Tap <strong>Enable Compass</strong> and allow location and motion access when your browser asks.</li>
+        <li>Hold your phone flat, away from metal objects, magnets and electronics.</li>
+        <li>Turn slowly until the gold Qibla marker sits under the compass needle. The ring turns gold when you are facing the Qibla.</li>
+      </ol>
+      <p>If you would rather not share your location, choose <strong>Enter your location manually</strong> and search for your city.</p>
+    </section>
+    <section>
+      <h2>How the direction is calculated</h2>
+      <p>The compass computes the great-circle bearing from your coordinates to the Kaaba (21.4225° N, 39.8262° E): the direction of the shortest path over the Earth's surface. Because the Earth is round, this often differs from a straight line drawn on a flat map. From North America, for example, the Qibla points north-east rather than south-east.</p>
+      <p>Your phone's compass sensor supplies the direction you are facing, so the marker moves as you turn. QiblaFind explains the formulas and their limits on its <a href="{{LINK_ORIGIN}}/methodology">methodology page</a>.</p>
+    </section>
+    <section>
+      <h2>Getting an accurate reading</h2>
+      <p>Phone compasses are thrown off by nearby metal, magnetic phone cases and car mounts. If the needle jumps around, move away from them and wave the phone in a slow figure-8 to recalibrate. On a desktop computer without a compass sensor, the widget still shows the Qibla bearing in degrees for your location.</p>
+      <p>You can also look up the Qibla bearing for <a href="{{LINK_ORIGIN}}/qibla-direction">more than a hundred cities worldwide</a>.</p>
+    </section>
+
+    <section>
+      <h2>Frequently asked questions</h2>
+      <h3>Is this Qibla compass free?</h3>
+      <p>Yes. It is free, runs in your browser and needs no app, account or sign-up.</p>
+      <h3>Why does the compass ask for location and motion access?</h3>
+      <p>Your location is needed to calculate the direction to the Kaaba from where you are, and motion access lets the compass follow your phone as you turn. Location is only used to calculate results and to look up the name of your city; no account is needed. See the <a href="{{LINK_ORIGIN}}/privacy">QiblaFind privacy policy</a>.</p>
+      <h3>Why is the Qibla not simply east or south-east?</h3>
+      <p>The Qibla follows the shortest path over the curved Earth (a great circle), so the direction depends on exactly where you are and can look surprising on a flat map.</p>
+      <h3>The needle is unsteady. What can I do?</h3>
+      <p>Move away from metal and electronics, remove magnetic cases, then move the phone in a slow figure-8 to recalibrate the compass sensor.</p>
+    </section>
+
+    <section>
+      <h2>Add this widget to your website</h2>
+      <p>Run a mosque, community or Islamic education website? Give your visitors the same live Qibla compass. Copy the code below into any page. It is free to use and needs no sign-up or API key.</p>
+      <div class="card">
+        <pre id="embed-code">&lt;iframe src=&quot;{{LINK_ORIGIN}}/embed/qibla&quot; title=&quot;Qibla compass&quot; width=&quot;100%&quot; height=&quot;860&quot; style=&quot;border:0;max-width:100%&quot; loading=&quot;lazy&quot; allow=&quot;geolocation; accelerometer; gyroscope; magnetometer&quot;&gt;&lt;/iframe&gt;
+&lt;p style=&quot;font-size:13px&quot;&gt;&lt;a href=&quot;{{LINK_ORIGIN}}/&quot;&gt;Qibla compass&lt;/a&gt; by QiblaFind&lt;/p&gt;</pre>
+        <button class="copy" type="button" data-copy="embed-code" data-done="Copied">Copy embed code</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>This page is an open-source showcase of the QiblaFind Qibla compass widget. The widget is provided by <a href="{{LINK_ORIGIN}}/">QiblaFind</a>, a free Qibla finder and prayer times site.</p>
+      <nav aria-label="More QiblaFind tools">
+        <a href="{{LINK_ORIGIN}}/">Online Qibla Finder</a>
+        <a href="{{LINK_ORIGIN}}/prayer-times">Prayer times</a>
+        <a href="{{LINK_ORIGIN}}/hijri-calendar">Hijri calendar</a>
+        <a href="{{LINK_ORIGIN}}/ramadan-{{RAMADAN_YEAR}}">Ramadan {{RAMADAN_YEAR}}</a>
+        <a href="{{LINK_ORIGIN}}/mosque-finder">Mosque finder</a>
+        <a href="{{LINK_ORIGIN}}/qibla-direction">Qibla direction by city</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
